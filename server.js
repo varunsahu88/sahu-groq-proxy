@@ -33,7 +33,7 @@ app.post('/chat', async (req, res) => {
         Accept: 'application/json',
       },
       body: JSON.stringify({
-        model: 'llama-3.1-70b-versatile',
+        model: 'llama-3.3-70b-versatile',
         temperature: 0.7,
         top_p: 0.95,
         max_tokens: 900,
